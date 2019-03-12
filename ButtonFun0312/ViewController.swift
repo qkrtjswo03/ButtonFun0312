@@ -19,17 +19,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func buttonPressed(_ sender: Any) {
-       // print("Hello Button Event")
-        myLabel.text = "Hello Button Event!"
+   
+    @IBAction func changeViewColor(_ sender: Any) {
+        self.view.backgroundColor = UIColor.red
     }
     
-    @IBAction func label_Clear(_ sender: Any) {
-        myLabel.text = ""
-        
+    @IBAction func changeViewColor1(_ sender: Any) {
+        self.view.backgroundColor = UIColor.blue
     }
-    @IBAction func changeViewColor(_ sender: Any) {
-        self.view.backgroundColor = UIColor.white
+    @IBAction func changeViewColor2(_ sender: Any) {
+        self.view.backgroundColor = UIColor.green
     }
 }
 
